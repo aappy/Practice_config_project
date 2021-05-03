@@ -19,7 +19,7 @@ public class Login {
 	
 	@Test(priority=2)
 	public void okAlert() throws Exception {
-		
+		//This is second test
 		driver.findElement(By.xpath("//*[contains(text() , 'Click Me')]")).click();
 		Thread.sleep(3000);
 		driver.switchTo().alert().accept();	
