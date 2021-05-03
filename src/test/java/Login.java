@@ -11,6 +11,7 @@ public class Login {
 	@Test(priority=1)
 	public void loginTest() {
 		
+		//This is test for clonning with SSH key
 		  WebDriverManager.chromedriver().setup();
 		  driver = new ChromeDriver();
 		  driver.get("https://testautomationpractice.blogspot.com/");
